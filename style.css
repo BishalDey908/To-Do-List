@@ -1,0 +1,206 @@
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap'); */
+  
+  /* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap'); */
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Shadows+Into+Light&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Satisfy&family=Shadows+Into+Light&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap');
+
+body{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.container{
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    height: 65vh;
+    background-color: white;
+    width: 70vw;
+    margin: 10% 15%;
+    border-radius: 15px;
+    box-shadow: -5px -5px 15px #accbee, 5px 5px 25px black;
+}
+.heading h1{
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+}
+.inputs{
+    display: flex;
+    justify-content:center;
+}
+#takeInput{
+    height: 35px;
+    width: 45vw;
+    border-radius: 15px;
+    border: 0;
+    padding-left: 10px;
+    margin-top: -150px;
+    font-family: 'Vollkorn', serif;
+}
+
+#buttonInput{
+   height: 35px;
+   width: 150px;
+   background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+   border-radius: 15px;
+   font-weight: bold;
+   border: 0;
+   margin-left: 5px;
+   margin-top: -100px;
+   font-family: 'Vollkorn', serif;
+}
+.display{
+    margin: 10px 0px;
+}
+.show{
+    padding: 0 15px;
+    display: flex;
+    background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+    width: 51%;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 5px 24.5%;
+    font-size: 17.5px;
+    font-weight:400;
+    border-radius: 5px;
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'Caveat', cursive;
+    font-family: 'Shadows Into Light', cursive; */
+    
+font-family: 'Satisfy', cursive;
+}
+.logo{
+    margin: 15px 5px;
+    cursor: pointer;
+}
+.textContainer p{
+    align-items: center;
+}
+i{
+    padding: 0px 8px;
+}
+.editlogo{
+    padding-left: 20px;
+}
+/* .taskno{
+    margin-right: 52px;
+}
+.textContainer{
+    margin-left: 50px;
+    margin-right: 80px;
+} */
+
+@media  ( max-width:450px) and (min-width:390px) {
+    .container{
+        height: 68vh;
+        width: 90vw;
+        margin: 80px 15px;
+    }
+    .show{
+        height: 5vh;
+        width: 320px;
+        margin: 5px 12px;
+        font-size: 12px;
+        /* font-weight: bold; */
+    }
+    .textContainer{
+        height: 20px;
+        width: 180px;
+        text-align: center;
+        font-size: 0.5 rem;
+    }
+    #takeInput{
+        width: 98%;
+    }
+    #buttonInput{
+        margin-top: 2%;
+        width: 25vw;
+        font-size: 10 vw;
+        margin-left: 35%;
+    }
+    .inputs{
+        margin: 2px 15px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-height :380px) and (min-width:360){
+    
+}
+
+@media( max-width:390px ) and  (min-width:380px){
+    body{
+        height: 180%;
+    }
+    .container{
+        width: 95vw;
+        height: 80vh;
+        margin: 60px 1px;
+    }
+    .show{
+        height: 6vh;
+        width: 300px;
+        margin: 5px 20px;
+        font-size: 13px;
+        /* font-weight: bold; */
+    }
+    #takeInput{
+        width: 98%;
+    }
+    #buttonInput{
+        margin-top: 2%;
+        width: 25vw;
+        font-size: 10 vw;
+        margin-left: 35%;
+    }
+    .inputs{
+        margin: 2px 15px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:360px) and (min-width:300px){
+    body{
+        height: 150%;
+    }
+    .container{
+        width: 95vw;
+        height: 80vh;
+        margin: 60px 1px;
+    }
+    .heading h1{
+        padding-top: 15px;
+    }
+    .show{
+        height: 7vh;
+        width: 290px;
+        margin: 5px 12px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .textContainer{
+        height: 20px;
+        width: 180px;
+        text-align: center;
+        font-size: 0.5 rem;
+        font-weight: bold;
+    }
+    #takeInput{
+        width: 98%;
+        border-radius: 15px;
+        padding-left: 5px;
+    }
+    #buttonInput{
+        margin-top: 2%;
+        width: 25vw;
+        font-size: 10 vw;
+        margin-left: 35%;
+    }
+    .inputs{
+        margin: 2px 15px;
+        display: flex;
+        flex-direction: column;
+    }
+}
